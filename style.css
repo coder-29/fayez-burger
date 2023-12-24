@@ -1,0 +1,151 @@
+body{
+    background-color: #344e41;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+}
+.title{
+    text-align: center;
+}
+
+header{
+    background-color:#588157;
+    display: flex;
+    color:#dad7cd;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+color:#dad7cd;
+}
+a:hover {
+    color: #344e41;
+}
+a:visited{
+    color:#344e41 ;
+}
+nav{
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    justify-content: center;
+}
+nav li{
+    margin: 0 15px;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    color: white;
+}
+nav h3{
+    color:#dad7cd;
+    font-weight: bold;
+}
+nav h3:hover{
+    color:white;
+}
+
+.content h1{
+    color:#bbc6a9;
+}
+.content p{
+    color:#dad7cd;
+}
+.content {
+    overflow:hidden; 
+    border-right: 3px solid #333; 
+    white-space:wrap;
+    margin: 0;
+    letter-spacing: 3px; 
+    animation: typeWriter 2s steps(40) forwards; 
+    margin: 20px;
+}
+
+@keyframes typeWriter {
+    from {
+        width: 0; 
+    }
+    to {
+        width: 100%; 
+    }
+}
+
+.minu{
+    color:#bbc6a9;
+    margin: 20px;
+    text-align: center;
+}
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photo-frame{
+    margin: 10px;
+    padding: 10px;
+    border: 0.5px dotted #DAD7CD;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(163, 177, 138, 0.3);
+    
+}
+.photo-frame img{
+    width: 100%;
+    max-width: 200px;
+    
+}
+button{
+    background-color: #588157;
+    color: #333;
+    padding:10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #3a5a40;
+}
+.photo-container img {
+    margin: 5px; 
+    max-width: 100%; 
+    height: auto; 
+    height: 300px;
+    width: 300px;
+}
+.cr1{
+    text-align: center;
+    color: #588157;
+    margin: 20px;
+}
+.top1{
+    text-align: center;
+    margin: 20px;
+}
+.top1 a{
+    color: #839782;
+}
+
+.button {
+            display: inline-block;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #429745; 
+            color: white;
+            border: 1px solid #429745;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        
+        .button:hover {
+            background-color: #45a049;
+        }
